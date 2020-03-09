@@ -1,0 +1,167 @@
+html {
+    
+    font-family: Lato, sans-serif;
+
+    /* opacity: .2; */
+    /* background-image: url(./assets/singolo1.png); */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1020px;
+    height: 1190px;
+    margin: 0;
+    color: #666d89;
+    background-color: #2d303a;
+}
+#header, #main-block {
+}
+#header {
+    margin-left: 40px;
+    margin-top: 62px;
+}
+
+#portfolio>h1 {
+    font-size: 30px;
+}
+
+#portfolio>p {
+    font-size: 17px;
+    margin-top: 22px;
+}
+
+#works-list>ul {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+    /* flex-direction: row; */
+    padding: 0;
+}
+
+#works-list>ul>a {
+    color: #666d89;
+    box-sizing: content-box;
+    text-decoration: none;
+    display: block;
+    border: 1px solid white;
+    margin-right: .5rem;
+    padding: 3px 0px 2px 0px;
+    font-size: 12px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+#works-list>ul>a>li {
+    list-style-type: none;
+    /* color: #666d89; */
+}
+
+#all {
+    width: 29px;
+    background-color: #fff;
+    /* padding-left: 10px; */
+}
+
+#web {
+    width: 78px;
+}
+
+#graphic {
+    width: 93px;
+}
+
+#artwork {
+    width: 57px;
+}
+
+/* main block */
+
+#main-block {
+    margin-left: 40px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4, 224px);
+    grid-template-rows: repeat(3, 190px);
+    grid-gap: .9rem;
+    height: 655px;
+}
+
+#main-block div img {
+    width: 100%;
+    height: 100%;
+}
+
+/* about us */
+
+#about-us {
+    background-color: #fff;
+    height: 714px;
+}
+#about-us-title {
+    width: 100%;
+    padding: 61px 0 0 40px;
+}
+#about-us-title > h1 {
+    margin: 0;
+    font-size: 30px;
+}
+#about-us-title > p {
+    font-size: 18px;
+    margin: 0;
+    padding-top: 20px;
+    line-height: 1.6;
+    width: 100%;
+}
+
+#cards {
+    margin-left: 40px;
+    margin-top: 43px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#cards > div {
+    /* text-align: center; */
+    /* margin: 0 10px; */
+    /* align-items: center; */
+}
+#cards > div > h3 {
+    margin-top: 11px;
+    margin-bottom: 13px;
+}
+#cards > div > img {
+    width: 300px;
+    height: 300px; 
+}
+#cards > div > p {
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    line-height: 1.6;
+}
+.networks {
+    display: flex;
+    flex-flow: wrap;
+}
+.networks > div {
+    width: 33px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 20px 8px 0 0px;
+    line-height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.networks > img {
+}
+
+/* line */
+
+#line {
+    height: 7px;
+    background-color: #323746;
+}
